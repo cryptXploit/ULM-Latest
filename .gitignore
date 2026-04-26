@@ -141,3 +141,94 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+
+
+# Node modules (backend & frontend)
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*  # covers .env.local, .env.production, etc.
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output (frontend)
+build/
+dist/
+
+# Cache
+.cache/
+.next/
+.vite/
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+bower_components/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MongoDB dump or data folders (optional)
+dump/
+data/
+
+# Optional: PM2 logs
+pids/
+*.pid
+*.seed
+
+# React Native (if using mobile app)
+.expo/
+*.apk
+*.ipa
+android/
+ios/
+
+.DS_Store
+.env
+../src/client/.env
+../src/client/.env.local
+../src/client/.env.development
+../src/client/.env.production
+../src/client/.env.test
+../src/client/.env.staging
+../src/client/.env copy
+../src/client/.env.local copy
+../src/client/.env.development copy
+../src/client/.env.production copy
+../src/client/.env.test copy
+../src/server/.env
+../src/server/.env.local
+../src/server/.env.development
+../src/server/.env.production
+../src/server/.env.test
+../src/server/.env.staging
+../src/server/.env copy
+../src/server/.env.local copy
+../src/server/.env.development copy
+../src/server/.env.production copy
+../src/server/.env.example
+../src/server/.env
+../src/server/.env.local
+../src/client/.env
+../src/client/.env.local
+../src/client/.env.example
+../src/client/.env.local
